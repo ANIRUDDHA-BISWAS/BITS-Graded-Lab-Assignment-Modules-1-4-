@@ -79,7 +79,48 @@ ls ~ | sort
 - sort arranges the output alphabetically.
 
 
+## 7. Log Investigation
+
+### Command:
+```
+grep "admin" log.txt
+```
+
+### Explanation:
+- Searches for the word "admin" inside the file log.txt.
+- Displays only the lines that contain the matching word.
+
+## 8. System Information Check
+
+### Command:
+```
+uname -r
+```
+
+### Explanation:
+- Displays the Linux kernel version currently running on the system.
 
 
+## 9. Network Connectivity Test
+
+### Command:
+```
+ping -c 4 www.google.com
+```
+
+### Explanation:
+- Sends 4 ICMP packets to www.google.com.
+- Receiving replies confirms that the system has active network connectivity.
 
 
+## 10. System Health Awareness
+
+### Command:
+```
+uptime
+```
+
+### Explanation:
+- Shows how long the system has been running (uptime).
+- Displays the number of logged-in users.
+- Shows system load averages for the last 1, 5, and 15 minutes, indicating system workload.
